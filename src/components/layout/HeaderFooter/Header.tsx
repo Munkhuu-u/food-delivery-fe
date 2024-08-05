@@ -2,12 +2,14 @@ import { Pinecone, Trolley, Search } from "@/components/icons";
 import { BorderAll, Fullscreen, Person } from "@mui/icons-material";
 import { Container, Stack, Typography, Box } from "@mui/material";
 
+const headerMenus = ["НҮҮР", "ХООЛНЫ ЦЭС", "ХҮРГЭЛТИЙН БҮС"];
+
 export const Header = () => {
   return (
     <Container>
       <Stack
         direction={`row`}
-        alignItems={"center"}
+        alignItems={"left"}
         justifyContent={`space-between`}
         maxWidth={"Fullscreen"}
         paddingX={"24px"}
@@ -30,15 +32,13 @@ export const Header = () => {
             spacing={2}
             justifyContent={`center`}
           >
-            <Stack paddingX={"16px"} paddingY={"8px"}>
-              <Typography>НҮҮР</Typography>
-            </Stack>
-            <Stack paddingX={"16px"} paddingY={"8px"}>
-              <Typography>ХООЛНЫ ЦЭС</Typography>
-            </Stack>
-            <Stack paddingX={"16px"} paddingY={"8px"}>
-              <Typography>ХҮРГЭЛТИЙН БҮС</Typography>
-            </Stack>
+            {headerMenus.map((menu) => {
+              return (
+                <Stack paddingX={"16px"} paddingY={"8px"}>
+                  <Typography>{menu}</Typography>
+                </Stack>
+              );
+            })}
           </Stack>
         </Stack>
 
