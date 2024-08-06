@@ -1,0 +1,14 @@
+Header
+---------------------
+Responsive
+Change color when hover
+Script font
+Link and jumt into page when press button
+
+Footer
+---------------------
+Responsive
+Link and jumt into page when press button
+Color change as follow theme
+overlap background pattern
+backgroun color

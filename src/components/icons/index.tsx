@@ -4,3 +4,7 @@ export * from "./Person";
 export * from "./Search";
 export * from "./Search";
 export * from "./FoodDelivery";
+export * from "./FooterBackgroundPattern";
+export * from "./Facebook";
+export * from "./Instagram";
+export * from "./Twitter";

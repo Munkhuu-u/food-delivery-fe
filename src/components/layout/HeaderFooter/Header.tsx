@@ -6,12 +6,12 @@ const headerMenus = ["НҮҮР", "ХООЛНЫ ЦЭС", "ХҮРГЭЛТИЙН Б
 
 export const Header = () => {
   return (
-    <Container>
+    <Container maxWidth={"lg"}>
       <Stack
         direction={`row`}
         alignItems={"left"}
         justifyContent={`space-between`}
-        maxWidth={"Fullscreen"}
+        // maxWidth={"Fullscreen"}
         paddingX={"24px"}
         paddingY={"8px"}
       >
