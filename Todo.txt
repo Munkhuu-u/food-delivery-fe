@@ -1,14 +1,22 @@
-Header
----------------------
+-------------------------------------
+______Header_______
 Responsive
 Change color when hover
 Script font
 Link and jumt into page when press button
 
-Footer
----------------------
+-------------------------------------
+______Footer______
 Responsive
 Link and jumt into page when press button
 Color change as follow theme
 overlap background pattern
 backgroun color
+
+-------------------------------------
+______Login______
+marging, padding, spacing
+word font
+eye icon changing when press
+hide password when eye shut
+able to press login button when password entered
