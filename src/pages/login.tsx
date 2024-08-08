@@ -1,5 +1,5 @@
 import { ClosedEye } from "@/components/icons";
-import { Box, Stack, Typography } from "@mui/material";
+import { Box, Stack, Typography, TextField } from "@mui/material";
 
 const login = () => {
   return (
@@ -8,27 +8,22 @@ const login = () => {
       <Typography>Нэвтрэх</Typography>
       <Stack>
         <Typography>Имейл</Typography>
-        <Box> </Box>
-        <Box
-          component={"input"}
+        <TextField
+          id="outlined-password-input"
           placeholder="И мейл хаягаа оруулна уу"
-          height={31}
-          width={`200px`}
-          border={`none`}
-          fontSize={14}
-        ></Box>
+          //   type="password"
+          //   autoComplete="current-password"
+        />
       </Stack>
       <Stack>
         <Typography>Нууц үг</Typography>
-        <Box> </Box>
-        <Box
-          component={"input"}
+        <TextField
+          id="outlined-password-input"
+          //   label="Password"
           placeholder="Нууц үг"
-          height={31}
-          width={`200px`}
-          border={`none`}
-          fontSize={14}
-        ></Box>
+          type="password"
+          autoComplete="current-password"
+        ></TextField>
         <ClosedEye />
         <Typography>Нууц үг сэргээх</Typography>
       </Stack>

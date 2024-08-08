@@ -15,8 +15,9 @@ backgroun color
 
 -------------------------------------
 ______Login______
+show eye icon inside of input
 marging, padding, spacing
-word font
+Script font
 eye icon changing when press
 hide password when eye shut
 able to press login button when password entered

@@ -22,7 +22,7 @@ export const Footer = () => {
       {/* <FooterBackgroundPattern /> */}
       <Stack alignItems={"center"} spacing={"40px"}>
         <FoodDelivery />
-        <Stack direction={"row"} spacing={"95px"}>
+        <Stack direction={"row"} spacing={"95px"} color={"black"}>
           {footerMenu.map((menu) => {
             return <Button>{menu}</Button>;
           })}
