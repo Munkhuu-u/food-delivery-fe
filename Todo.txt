@@ -7,11 +7,11 @@ Link and jumt into page when press button
 
 -------------------------------------
 ______Footer______
-Responsive
 Link and jumt into page when press button
 Color change as follow theme
 overlap background pattern
 backgroun color
+Responsive
 
 -------------------------------------
 ______Login______
